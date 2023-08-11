@@ -17,7 +17,7 @@ export default function SectionHeader({title, subtitle, text}) {
       className='flex flex-col items-center justify-center'
       ref={ref}
     >
-      <span className='text-primary text-lg font-medium' style={animation('0.5s', '0s')}>
+      <span className='text-primary mb-1 text-lg font-medium' style={animation('0.5s', '0s')}>
         {subtitle}
       </span>
       <h1

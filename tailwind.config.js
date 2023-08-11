@@ -30,6 +30,10 @@ module.exports = {
         500: '55rem',
       },
 
+      boxShadow: {
+        btn: '0px 0px 25px -11px rgba(127, 90, 240, 0.5)',
+      },
+
       borderRadius: {
         '4xl': '2rem',
       },

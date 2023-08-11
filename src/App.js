@@ -2,7 +2,7 @@ import './App.css'
 
 import Navbar from './components/Navbar'
 import Header from './layout/Header'
-import About from './layout/About'
+import About from './layout/about/About'
 import RecentProject from './layout/RecentProject'
 import HeroSections from './layout/HeroSections'
 import Footer from './layout/footer/Footer'
