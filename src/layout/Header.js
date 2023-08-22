@@ -23,7 +23,7 @@ const Header = () => {
             className='shadow-button w-full text-center font-poppins font-normal py-4 rounded-[30px] hover:rounded-sm ease-in duration-150 border-[1.5px] border-primary'
             href='#'
           >
-            Work with me
+            Drone Footage
           </button>
         </div>
       </div>

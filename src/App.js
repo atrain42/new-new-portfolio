@@ -5,6 +5,7 @@ import Header from './layout/Header'
 import About from './layout/about/About'
 import RecentProject from './layout/RecentProject'
 import HeroSections from './layout/HeroSections'
+import Goals from './layout/goals/Goals'
 import Footer from './layout/footer/Footer'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <About />
       <RecentProject />
       <HeroSections />
+      <Goals />
       <Footer />
     </div>
   )
