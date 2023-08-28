@@ -1,11 +1,11 @@
-import Card from '../components/Card'
-import SectionHeader from '../components/SectionHeader'
+import Card from './Card'
+import SectionHeader from '../../components/SectionHeader'
 
 const data = [
   {
     num: '01',
-    title: 'Lorem eine ipsum',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
+    title: 'Learning to Learn',
+    text: "I view the ability to learn as a skill on it's own. Here is how I teach myself new complex skills.",
   },
   {
     num: '02',
@@ -19,7 +19,7 @@ const data = [
   },
 ]
 
-export default function HeroSections() {
+export default function Writing() {
   return (
     <div className='mt-80 px-8'>
       <SectionHeader

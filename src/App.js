@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 import Header from './layout/Header'
 import About from './layout/about/About'
 import RecentProject from './layout/RecentProject'
-import HeroSections from './layout/HeroSections'
+import Writing from './layout/writing/Writing'
 import Goals from './layout/goals/Goals'
 import Footer from './layout/footer/Footer'
 
@@ -15,7 +15,7 @@ function App() {
       <Header />
       <About />
       <RecentProject />
-      <HeroSections />
+      <Writing />
       <Goals />
       <Footer />
     </div>

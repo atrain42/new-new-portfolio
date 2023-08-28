@@ -4,13 +4,12 @@ const Header = () => {
   return (
     <header className='relative flex items-center h-screen mv:px-8 mv:flex-col-reverse mv:justify-center z-10 md:flex-row md:justify-evenly'>
       <div className='mv:mr-0 mv:w-full md:mr-4 md:w-100'>
-        <h1 className='text-7xl text-primary'>Lorum Isum</h1>
-        <h1 className='text-7xl'>dolar sit amet</h1>
+        <h1 className='text-6xl text-primary'>Crafting Magical</h1>
+        <h1 className='text-6xl'>Digital Realms</h1>
         <p className='mt-5 w-full'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip.
+          Hi, I'm Austin Maxheimer, a frontend developer who enjoys creating exceptional user interfaces that contain
+          traces of magic. Rumor has it that if you hold my code underneath a full moon, it summons a family of unicorns that
+          fly off into the night sky.
         </p>
         <div className='grid grid-cols-2 mt-8 mv:gap-x-5 sm:gap-x-9 gap-y-9 font-button place-items-center text-md tracking-wider'>
           <button
