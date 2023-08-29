@@ -2,7 +2,7 @@ import smile from '../images/smile-drip.png'
 
 const Header = () => {
   return (
-    <header className='relative flex items-center h-screen mv:px-8 mv:flex-col-reverse mv:justify-center z-10 md:flex-row md:justify-evenly'>
+    <header className='relative flex items-center h-screen px-8 z-10 justify-evenly flex-col'>
       <div className='mv:mr-0 mv:w-full md:mr-4 md:w-100'>
         <h1 className='text-6xl text-primary'>Crafting Unique</h1>
         <h1 className='text-6xl'>Digital Realms</h1>
@@ -28,7 +28,7 @@ const Header = () => {
       </div>
       <div className='mv:ml-0 mv:h-full mv:w-full mv:mb-12 md:ml-4 md:h-280 md:w-auto md:mb-0'>
         <img
-          className='mx-auto mv:h-5/6 mv:w-5/6 md:h-full md:w-auto '
+          className='mx-auto mv:h-5/6 mv:w-5/6 md:h-full md:w-full'
           src={smile}
           alt='platform'
         />
