@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className='relative flex items-center h-screen mv:px-8 mv:flex-col-reverse mv:justify-center z-10 md:flex-row md:justify-evenly'>
       <div className='mv:mr-0 mv:w-full md:mr-4 md:w-100'>
-        <h1 className='text-6xl text-primary'>Crafting Magical</h1>
+        <h1 className='text-6xl text-primary'>Crafting Unique</h1>
         <h1 className='text-6xl'>Digital Realms</h1>
         <p className='mt-5 w-full'>
           Hi, I'm Austin Maxheimer, a frontend developer who enjoys creating exceptional user interfaces that contain
