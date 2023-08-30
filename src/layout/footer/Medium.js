@@ -6,7 +6,7 @@ export default function Medium() {
       <div className='flex flex-col justify-between'>
         <h1 className='text-header text-4xl mb-4'>Thanks for coming!</h1>
         <p>
-          I am always open to hearing about new job opportunities. Let&#39;s
+          I hope you enjoyed your time here. I am always open to hearing about new job opportunities. Let&#39;s
           collaborate and build something cool.
         </p>
       </div>

@@ -4,7 +4,7 @@ import CardWrapper from "./CardWrapper"
 
 export default function Large() {
   return (
-    <CardWrapper width='mv:w-full md:w-[26rem]' height='self-stretch'>
+    <CardWrapper className="w-full" height='self-stretch'>
       <div className='mv:mb-12 md:mb-0'>
         <h1 className='text-header text-4xl'>Before you go,</h1>
         <h1 className='text-header text-4xl'>drop me an email.</h1>

@@ -1,7 +1,6 @@
 import Large from "./Large"
 import Medium from "./Medium"
 import Small from "./Small"
-import CreatedWith from "./CreatedWith"
 import SectionHeader from '../../components/SectionHeader'
 
 import balloon from '../../images/balloon-theme.png'
@@ -28,9 +27,9 @@ export default function Footer() {
 
 
   return (
-    <div className='px-8 mt-72 flex flex-col justify-center items-center' id='footer'>
+    <div className='px-8 mt-72 flex flex-col justify-center items-center'>
       <img
-        className='h-[22.5rem] w-auto mb-4'
+        className='mv:h-[15rem] sm:h-[17.5rem] md:h-[22.5rem] w-auto mb-4'
         src={balloon}
         alt='balanced emotions balloon'
       />
