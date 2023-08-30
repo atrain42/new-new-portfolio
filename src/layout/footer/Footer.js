@@ -30,7 +30,7 @@ export default function Footer() {
   return (
     <div className='px-8 mt-72 flex flex-col justify-center items-center' id='footer'>
       <img
-        className='h-[25rem] w-auto mb-4'
+        className='h-[22.5rem] w-auto mb-4'
         src={balloon}
         alt='balanced emotions balloon'
       />

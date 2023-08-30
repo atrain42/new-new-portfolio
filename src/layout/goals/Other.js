@@ -1,31 +1,49 @@
-import Paddle from '../../components/Paddle'
+import Item from './Item'
 
 import effects from '../../images/effects.svg'
 import illustrator from '../../images/illustrator.svg'
 import movie from '../../images/movie.svg'
+import lightroom from '../../images/lightroom.svg'
+import draw from '../../images/draw.svg'
+import figma from '../../images/figma.svg'
 
 export default function Other() {
   const data = [
     {
+      title: "Lightroom",
+      text: "I use lightroom to edit images I take with my drone.",
+      icon: lightroom
+    },
+    {
       title: "Illustrator",
-      text: "Here is where the text would go baby. I am so friggen cool man it's nuts.",
+      text: "Here is where I create vector graphics for websites or for fun.",
       icon: illustrator
     },
     {
       title: "Premiere Pro",
-      text: "Here is where the text would go baby. I am so friggen cool man it's nuts.",
+      text: "Here is where I edit and color grade videos/drone footage.",
       icon: movie
     },
     {
       title: "After Effects",
-      text: "Here is where the text would go baby. I am so friggen cool man it's nuts.",
+      text: "I use AE to create video effects and futher enhance my videos.",
       icon: effects
+    },
+    {
+      title: "Figma",
+      text: "I use Figma at my job and to conceptualize new ideas.",
+      icon: figma
+    },
+    {
+      title: "Writing",
+      text: "I write often and consistently work to enhance my writing capabilities.",
+      icon: draw
     },
   ]
   return (
-    <div className="flex mv:flex-col md:flex-row justify-center items-center mv:space-x-0 md:space-x-4 mv:px-8 md:px-0 mv:space-y-4 md:space-y-0">
+    <div className="grid grid-cols-3 place-items-center items-center w-[70rem] mx-auto gap-y-12">
       {data.map((paddle, index) => (
-            <Paddle
+            <Item
               key={index}
               icon={paddle.icon}
               title={paddle.title}

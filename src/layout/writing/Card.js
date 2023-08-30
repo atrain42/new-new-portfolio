@@ -4,12 +4,12 @@ import { motion } from "framer-motion"
 import cubeDark from '../../images/cube.png'
 
 
-export default function Card({ num, title, text }) {
+export default function Card({ num, title, text, link }) {
   const [isHovered, setIsHovered] = useState(false)
 
   return (
     <a
-      href="https://medium.com/@maxheimer4211/learning-how-to-learn-685298d1a391"
+      href={link}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       className='h-100 mv:w-full lg:w-96 p-6 flex flex-col justify-between rounded-lg rounded-br-4xl relative cursor-pointer hover:shadow-lg ease-linear duration-75 card'

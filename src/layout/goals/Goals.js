@@ -36,12 +36,6 @@ export default function Goals() {
           />
         </div>
         <div className='mv:mr-0 mv:w-full md:mr-4 md:w-100'>
-          {/* <h1 className='text-header mv:text-4xl sm:text-5xl mb-4'>
-            Future Plans
-          </h1>
-          <p className='w-full mb-12'>
-            Take a trip into the Forbidden Forest.
-          </p> */}
           {bulletData.map((list, index) => (
             <Bullet
               key={index}
@@ -52,7 +46,7 @@ export default function Goals() {
           ))}
         </div>
       </div>
-      <h1 className='mt-20 text-header text-center mv:text-3xl sm:text-4xl mb-4'>Other Goals</h1>
+      <h1 className='mt-24 text-header text-center mv:text-2xl sm:text-3xl mb-12'>Non-tech Skills</h1>
       <Other />
     </SectionWrapper>
     </div>
