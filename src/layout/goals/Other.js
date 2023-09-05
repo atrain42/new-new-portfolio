@@ -41,7 +41,7 @@ export default function Other() {
     },
   ]
   return (
-    <div className="grid mv:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center items-center mv:w-full lg:w-[70rem] mx-auto mv:gapy-y-8 md:gap-y-12">
+    <div className="grid mv:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center items-center mv:w-full lg:w-[65rem] mx-auto mv:gapy-y-8 md:gap-y-12">
       {data.map((paddle, index) => (
             <Item
               key={index}

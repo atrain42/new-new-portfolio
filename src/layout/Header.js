@@ -1,3 +1,5 @@
+import { Link } from 'react-scroll'
+
 import smile from '../images/smile-drip.png'
 
 const Header = () => {
@@ -12,12 +14,12 @@ const Header = () => {
           fly off into the night sky.
         </p>
         <div className='grid grid-cols-2 mt-8 mv:gap-x-5 sm:gap-x-9 gap-y-9 font-button place-items-center text-md tracking-wider'>
-          <button
-            className='shadow-button w-full mv:text-sm sm:text-base font-normal text-center text-white mv:py-2 sm:py-4 rounded-[30px] hover:rounded-sm ease-in duration-150 primary-btn'
-            href='#'
+          <Link
+            to='about' smooth={true} duration={300} offset={-110}
+            className='shadow-button w-full mv:text-sm sm:text-base font-normal text-center text-white mv:py-2 sm:py-4 rounded-[30px] hover:rounded-sm ease-in duration-150 primary-btn cursor-pointer'
           >
             Explore
-          </button>
+          </Link>
           <button
             className='shadow-button w-full text-center mv:text-sm sm:text-base font-normal mv:py-2 sm:py-4 rounded-[30px] hover:rounded-sm ease-in duration-150 border-[1.5px] border-primary'
             href='#'

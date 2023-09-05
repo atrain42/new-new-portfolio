@@ -27,7 +27,7 @@ export default function Footer() {
 
 
   return (
-    <div className='px-8 mt-72 flex flex-col justify-center items-center'>
+    <div className='px-8 mt-72 flex flex-col justify-center items-center' id="contact">
       <img
         className='mv:h-[15rem] sm:h-[17.5rem] md:h-[22.5rem] w-auto mb-4'
         src={balloon}

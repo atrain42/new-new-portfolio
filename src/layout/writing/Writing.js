@@ -16,14 +16,15 @@ const data = [
   },
   {
     num: '03',
-    title: 'Lorem eine ipsum',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
+    title: 'A Horror Story',
+    text: "It's cold and dark, violent screams wake you in the night. Are you in a trapped in a haunted house? Maybe...",
+    link: 'https://medium.com/@maxheimer4211/a-horror-story-15eb025f9811'
   },
 ]
 
 export default function Writing() {
   return (
-    <div className='mt-80 px-8'>
+    <div className='mt-80 px-8' id="writing">
       <SectionHeader
         subtitle='My Writing'
         title='Ink Expressions'

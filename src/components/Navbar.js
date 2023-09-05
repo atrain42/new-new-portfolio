@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-scroll'
 
 import DarkMode from './DarkMode/DarkMode'
 import MobileButton from './MobileNavigation/MobileButton'
@@ -14,12 +15,12 @@ export default function Navbar() {
         <ul
           className='mv:hidden md:flex items-center space-x-6 justify-between font-poppins cursor-pointer'
         >
-          <li className='hover-link'>About</li>
-          <li className='hover-link'>Writing</li>
-          <li className='hover-link'>Projects</li>
-          <li className='hover-link p-4 py-1.5 bg-primary rounded-[30px] text-[#E7E7E7] hover:rounded-sm ease-in duration-150'>
+          <Link to='about' smooth={true} duration={300} offset={-110} className='hover-link'>About</Link>
+          <Link to='projects' smooth={true} duration={300} offset={-110} className='hover-link'>Projects</Link>
+          <Link to='writing' smooth={true} duration={300} offset={-110} className='hover-link'>Writing</Link>
+          <Link to='contact' smooth={true} duration={300} offset={110} className='hover-link p-4 py-1.5 bg-primary rounded-[30px] text-[#E7E7E7] hover:rounded-sm ease-in duration-150'>
             Contact
-          </li>
+          </Link>
         </ul>
       </div>
       <MobileButton open={open} setOpen={setOpen} />

@@ -15,7 +15,7 @@ export default function Large() {
         className='hover-link p-4 py-1.5 bg-primary rounded-[30px] text-[#E7E7E7] hover:rounded-sm ease-in duration-150'
         id='button'
       >
-        Reach Out
+        Contact
       </a>
     </CardWrapper>
   )
