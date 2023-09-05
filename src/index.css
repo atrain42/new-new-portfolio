@@ -39,6 +39,12 @@ h1 {
   --background-color: #16161A;
 }
 
+.mobile-menu {
+  background-color: var(--body_background);
+  color: var(--body_color);
+  border-left: 1.5px solid var(--primary-color);
+}
+
 
 .home-icon {
   color: red;
