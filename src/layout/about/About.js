@@ -9,7 +9,7 @@ import c4 from '../../images/bird-tt.png'
 
 export default function About() {
   return (
-    <div className='w-full my-72' id="about">
+    <div className='w-full my-72' id='about'>
       <SectionHeader
         subtitle='Hello Friend'
         title='Consecte Adipisc'
@@ -20,12 +20,14 @@ export default function About() {
           <Card
             size='mv:w-full sm:w-72'
             image={c1}
+            imageSize='mv:h-64 sm:h-auto w-auto'
             title='Art Enthusiast'
-            text="From acrylic paintings to vinyl record covers, I am obsessed with all art forms."
+            text='From acrylic paintings to vinyl record covers, I am obsessed with all art forms.'
           />
           <Card
             size='mv:w-full sm:w-500'
             image={c3}
+            imageSize='h-auto w-auto'
             title='Mechanical Engineering Graduate'
             text='I graduated from Central Michigan University with a degree in Mechanical Engineering. I believe that my extensive knowledge on complex mathematics gives me an advantage when writing code.'
           />
@@ -33,15 +35,17 @@ export default function About() {
         <div className='flex items-stretch justify-center mv:space-x-0 sm:space-x-4 mv:flex-col sm:flex-row mv:space-y-4 sm:space-y-0 px-8'>
           <Card
             size='mv:w-full sm:w-500'
+            image={c4}
+            imageSize='h-auto w-auto'
             title='Self-taught Developer'
             text='In October 2021, I decided to learn how to code, and took a leap into unknown water. At first, the water was choppy, but with consistency, it became smooth like glass.'
-            image={c4}
           />
           <Card
             size='mv:w-full sm:w-72'
             image={c2}
+            imageSize='mv:h-64 sm:h-auto w-auto'
             title='Creative Writer'
-            text="In my free time, I enjoy writing and brainstorming book ideas."
+            text='In my free time, I enjoy writing and brainstorming book ideas.'
           />
         </div>
       </SectionWrapper>

@@ -3,11 +3,12 @@ export default function Card({
   image,
   title,
   text,
+  imageSize
 }) {
   const displayImage = () => {
     return (
       <img
-        className='card-image h-auto w-auto mx-auto'
+        className={`card-image ${imageSize} mx-auto`}
         src={image}
         alt='card content'
       />
