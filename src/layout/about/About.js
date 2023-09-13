@@ -12,8 +12,8 @@ export default function About() {
     <div className='w-full my-72' id='about'>
       <SectionHeader
         subtitle='Hello Friend'
-        title='Consecte Adipisc'
-        text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.'
+        title='Warm Welcome'
+        text="I'm Austin Maxheimer, a software engineer located in Grand Haven, Michigan. Get to know a little about me."
       />
       <SectionWrapper>
         <div className='flex items-stretch justify-center mv:space-x-0 sm:space-x-4 mb-4 mv:flex-col sm:flex-row mv:space-y-4 sm:space-y-0 px-8'>
@@ -21,8 +21,8 @@ export default function About() {
             size='mv:w-full sm:w-72'
             image={c1}
             imageSize='mv:h-64 sm:h-auto w-auto'
-            title='Art Enthusiast'
-            text='From acrylic paintings to vinyl record covers, I am obsessed with all art forms.'
+            title='Videographer'
+            text='In my free time, I like to capture videos with my DJI Air 3 drone.'
           />
           <Card
             size='mv:w-full sm:w-500'
@@ -37,8 +37,8 @@ export default function About() {
             size='mv:w-full sm:w-500'
             image={c4}
             imageSize='h-auto w-auto'
-            title='Self-taught Developer'
-            text='In October 2021, I decided to learn how to code, and took a leap into unknown water. At first, the water was choppy, but with consistency, it became smooth like glass.'
+            title='Developer Journey'
+            text='In October 2021, I decided to learn how to code, and took a leap into unknown water. I landed a job a year later in October 2022, and never looked back.'
           />
           <Card
             size='mv:w-full sm:w-72'

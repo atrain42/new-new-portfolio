@@ -7,8 +7,6 @@ import {
   Routes,
 } from "react-router-dom";
 
-
-import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Footage from "./pages/Footage";
 // import Footer from "./layout/footer/Footer";
@@ -30,10 +28,9 @@ function App() {
     <div className='App'>
       <Router>
         <ScrollToTop />
-        <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="footage" element={<Footage />} />
+          <Route path='/' element={<Home />} />
+          <Route path='footage' element={<Footage />} />
         </Routes>
         {/* <Footer /> */}
       </Router>

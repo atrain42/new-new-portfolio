@@ -9,7 +9,7 @@ export default function Goals() {
   const bulletData = [
     {
       title: 'Backend Technologies',
-      text: 'Currently, I am learning Ruby on Rails at work. I understand the value of learning all aspects of development.',
+      text: 'Currently, I am expanding my knowledge of Ruby on Rails at work. I understand the importance of learning all aspects of development, in order to paint the full picture.',
       margin: 'mb-8',
     },
     {

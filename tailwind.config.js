@@ -42,9 +42,9 @@ module.exports = {
       },
 
       screens: {
-        'mv': '0px',
+        mv: '0px',
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar')({ nocompatible: true })],
 }

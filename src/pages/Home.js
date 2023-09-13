@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Navbar from '../components/Navbar'
 import Header from '../layout/Header'
 import About from '../layout/about/About'
 import RecentProject from '../layout/RecentProject'
@@ -11,7 +12,8 @@ import square from '../images/purple-square.png'
 
 export default function Home() {
   return (
-    <div>      
+    <div>
+      <Navbar landing={true} />      
       <Header />
       <img className='h-16 w-auto mv:hidden md:inline absolute left-40' src={square} alt="square icon"/>
       <About />

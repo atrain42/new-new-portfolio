@@ -1,4 +1,4 @@
-.App {
+body {
   background-color: var(--body_background);
   color: var(--body_color);
   position: relative;

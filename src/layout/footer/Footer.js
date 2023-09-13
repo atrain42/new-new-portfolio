@@ -11,7 +11,7 @@ import linkedin from '../../images/linkedin.svg'
 const data = [
   {
     src: twitter,
-    link: 'https://twitter.com/_PixelPrism'
+    link: 'https://twitter.com/Austinwrites_',
   },
   {
     src: github,
@@ -20,7 +20,7 @@ const data = [
   {
     src: linkedin,
     link: 'https://www.linkedin.com/in/austin-maxheimer-2ba1341b1/',
-  }
+  },
 ]
 
 export default function Footer() {
