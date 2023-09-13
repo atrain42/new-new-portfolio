@@ -1,23 +1,42 @@
-import './App.css'
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from "react-router-dom";
+
 
 import Navbar from './components/Navbar'
-import Header from './layout/Header'
-import About from './layout/about/About'
-import RecentProject from './layout/RecentProject'
-import Writing from './layout/writing/Writing'
-import Goals from './layout/goals/Goals'
-import Footer from './layout/footer/Footer'
+import Home from './pages/Home'
+import Footage from "./pages/Footage";
+// import Footer from "./layout/footer/Footer";
+
+import './App.css'
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
   return (
     <div className='App'>
-      <Navbar />
-      <Header />
-      <About />
-      <RecentProject />
-      <Writing />
-      <Goals />
-      <Footer />
+      <Router>
+        <ScrollToTop />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="footage" element={<Footage />} />
+        </Routes>
+        {/* <Footer /> */}
+      </Router>
     </div>
   )
 }

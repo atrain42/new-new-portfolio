@@ -30,8 +30,8 @@ export default function Other() {
       icon: effects
     },
     {
-      title: "Figma",
-      text: "I use Figma at my job and to conceptualize new ideas.",
+      title: "Photoshop",
+      text: "I enjoy using photoshop to add unique edits to images.",
       icon: figma
     },
     {

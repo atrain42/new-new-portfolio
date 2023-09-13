@@ -4,7 +4,7 @@ import smile from '../images/smile-drip.png'
 
 const Header = () => {
   return (
-    <header className='relative flex items-center h-screen px-8 z-10 justify-evenly mv:flex-col-reverse md:flex-row'>
+    <header className='relative flex items-center h-screen px-8 z-10 justify-evenly mv:flex-col-reverse md:flex-row pt-4'>
       <div className='mv:mr-0 mv:w-full md:mr-4 md:w-100'>
         <h1 className='mv:text-4xl sm:text-6xl text-primary mb-2'>Crafting Unique</h1>
         <h1 className='mv:text-4xl sm:text-6xl'>Digital Realms</h1>
