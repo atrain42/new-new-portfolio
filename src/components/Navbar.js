@@ -18,7 +18,7 @@ export default function Navbar() {
           <Link to='about' smooth={true} duration={300} offset={-110} className='hover-link'>About</Link>
           <Link to='projects' smooth={true} duration={300} offset={-110} className='hover-link'>Projects</Link>
           <Link to='writing' smooth={true} duration={300} offset={-110} className='hover-link'>Writing</Link>
-          <Link to='contact' smooth={true} duration={300} offset={110} className='hover-link p-4 py-1.5 bg-primary rounded-[30px] text-[#E7E7E7] hover:rounded-sm ease-in duration-150'>
+          <Link to='contact' smooth={true} duration={300} offset={250} className='hover-link p-4 py-1.5 bg-primary rounded-[30px] text-[#E7E7E7] hover:rounded-sm ease-in duration-150'>
             Contact
           </Link>
         </ul>
