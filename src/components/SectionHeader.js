@@ -13,11 +13,11 @@ export default function SectionHeader({title, subtitle, text}) {
   }
 
   return (
-    <div
-      className='flex flex-col items-center justify-center'
-      ref={ref}
-    >
-      <span className='text-primary mb-1 text-lg font-medium' style={animation('0.5s', '0s')}>
+    <div className='flex flex-col items-center justify-center' ref={ref}>
+      <span
+        className='text-primary mb-1 text-lg font-medium'
+        style={animation('0.5s', '0s')}
+      >
         {subtitle}
       </span>
       <h1
@@ -27,7 +27,7 @@ export default function SectionHeader({title, subtitle, text}) {
         {title}
       </h1>
       <p
-        className='mb-12 mv:w-full sm:w-[30rem] text-center mv:px-8 sm:px-0'
+        className='mb-12 mv:w-full sm:w-[30rem] text-center mv:px-8 sm:px-0 mv:text-sm sm:text-lg'
         style={animation('0.5s', '0.5s')}
       >
         {text}

@@ -39,7 +39,7 @@ export default function Card({ num, title, text, link }) {
         />
       </motion.div>
 
-      <p className='text-lg'>{text}</p>
+      <p className='mv:text-sm sm:text-lg'>{text}</p>
     </a>
   )
 }

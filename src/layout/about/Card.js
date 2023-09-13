@@ -21,8 +21,10 @@ export default function Card({
           {image ? displayImage() : ''}
         </div>
         <div className='flex flex-col space-y-2 mt-12'>
-          <span className='text-header card-text font-bold text-lg'>{title}</span>
-          <p className='card-paragraph'>{text}</p>
+          <span className='text-header card-text font-bold text-lg'>
+            {title}
+          </span>
+          <p className='card-paragraph mv:text-sm sm:text-lg'>{text}</p>
         </div>
       </div>
     </div>
