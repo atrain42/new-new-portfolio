@@ -60,8 +60,15 @@ export default function Navbar({landing = false}) {
           </a>
         )}
       </div>
-      <MobileButton open={open} setOpen={setOpen} />
-      <MobileMenu open={open} setOpen={setOpen} />
+      {landing ?
+      <>
+        <MobileButton open={open} setOpen={setOpen} />
+        <MobileMenu open={open} setOpen={setOpen} />
+      </>
+      : 
+      ''  
+      }
+      
     </nav>
   )
 }

@@ -1,4 +1,5 @@
 // import { Link, animateScroll as scroll } from 'react-scroll'
+import { Link } from 'react-scroll'
 
 export default function MobileMenu({ open, setOpen }) {
 
@@ -13,18 +14,39 @@ export default function MobileMenu({ open, setOpen }) {
         <ul
           className='flex flex-col items-center w-full font-poppins cursor-pointer space-y-16 text-lg'
         >
-          <span to='projects' smooth={true} duration={100} offset={-110} onClick={() => setOpen(false)}>
-            Projects
-          </span>
-          <span to='about' smooth={true} duration={100} offset={-110} onClick={() => setOpen(false)}>
-            About
-          </span>
-          <span to='writing' smooth={true} duration={100} offset={-110} onClick={() => setOpen(false)}>
-            Writing
-          </span>
-          <span to='footer' smooth={true} duration={100} offset={-110} onClick={() => setOpen(false)}>
+          <Link
+              to='about'
+              smooth={true}
+              duration={300}
+              offset={-110}
+              className='hover-link'
+              onClick={() => setOpen(false)}
+            >
+              About
+            </Link>
+          <Link
+              to='projects'
+              smooth={true}
+              duration={300}
+              offset={-110}
+              className='hover-link'
+              onClick={() => setOpen(false)}
+            >
+              Projects
+            </Link>
+          <Link
+              to='writing'
+              smooth={true}
+              duration={300}
+              offset={-110}
+              className='hover-link'
+              onClick={() => setOpen(false)}
+            >
+              Writing
+            </Link>
+          <Link to='contact' smooth={true} duration={100} offset={-110} onClick={() => setOpen(false)}>
             Contact
-          </span>
+          </Link>
         </ul>
       </div>
     </>
