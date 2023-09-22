@@ -12,9 +12,8 @@ const Header = () => {
         <h1 className='mv:text-4xl sm:text-6xl'>Digital Realms</h1>
         <p className='mt-5 w-full mv:text-sm sm:text-lg'>
           Hi, I'm Austin Maxheimer, a frontend developer who enjoys creating
-          exceptional user interfaces that contain traces of magic. Rumor has it
-          that if you hold my code underneath a full moon, it summons a family
-          of unicorns that fly off into the night sky.
+          exceptional user interfaces that contain traces of magic. I hope you
+          enjoy exploring my portfolio, feel free to stay awhile.
         </p>
         <div className='grid grid-cols-2 mt-8 mv:gap-x-5 sm:gap-x-9 gap-y-9 font-button place-items-center text-md tracking-wider'>
           <Link
